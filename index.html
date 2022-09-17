@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+    <title>HANDS-ON PROJECT 6-1</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	</head>
+<body>
+    <div class="container" >
+        <div class="head">
+            <h1>Hands-on Project 6-1</h1>
+        </div>
+        <div class="content" >
+            <div class="content-title">
+                <h4>Personal Information</h4>
+            </div>
+            <form action="" method="POST" id="form" onsubmit="return(validate());" align="center">
+                <div id="errorText"></div>
+                <table align="center">
+                    <tr>
+                        <td >Street Address</td>
+                        <td>
+                            <input type="text" name="address" id="address" placeholder=" number and Street name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td>
+                            <input type="text" name="city" id="city" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>State/Province</td>
+                        <td>
+                            <input type="text" name="province" id="province" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ZipPostal Code</td>
+                        <td>
+                            <input type="tel" name="postalcode" id="postalcode" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Social Security</td>
+                        <td class="securitynum">
+                                <input type="tel" id="securityNumber1" placeholder="">
+                                <input type="tel" id="securityNumber2" placeholder="">
+                                <input type="tel" id="securityNumber3" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Number</td>
+                    </tr>
+                </table>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <script text="text/javascript" src="app.js"></script>
+</body>
+</html>

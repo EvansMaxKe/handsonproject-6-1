@@ -1,0 +1,132 @@
+body{
+    background-color: lightgray;
+    
+}
+div.container{
+    height: 100%;
+    border: 0.1px solid black;
+    margin: 1% auto;
+    width: 50%;
+    
+}
+div.head{
+    text-align: center;
+    background-color: rgba(253, 253, 29, 0.8);
+    border-bottom: 1px solid black;
+    padding: 0.5%;
+    height: 100%;
+}
+div.head h1{
+    padding:0;
+}
+div.content{
+    background-color:rgb(196, 167, 2);
+    height: 100%;
+    padding: 1% 0%;
+    padding: 1%;
+    text-align: center;
+}
+div.content-title h5{
+    font-weight: bolder;
+    
+}
+div.content form{
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4% 0%;
+    border: 1px solid black;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+}
+div.content table{
+    text-align: center;
+    margin: 0 auto;
+    margin-right:25% ;
+}
+div.content table tr td{
+    text-align: right;
+    margin-left: 20%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+div.content table input{
+    margin-top: -6%;
+    height: 1.2rem;
+    background-color: white;
+    margin-left: 10%;
+    
+}
+div.content table tr td.securitynum input{
+    width: 24%;
+    margin-left: 0%;
+   
+}
+div.content input#submit{
+    margin-left:14% ;
+    background-color: white;
+}
+div#errorText{
+    color: red;
+    padding: 2%;
+    border-radius: 8px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    
+}
+@media (max-width:768px){
+    div.container{
+        height: 100%;
+        border: 2px solid black;
+        margin: 0% auto;
+        width: 90%;
+        
+    }
+    div.content form{
+        display: inline-block;
+        width: 100%;
+        justify-content:flex-end;
+      
+        margin: 0 auto;
+    }
+    div.content{
+        padding: 4%;
+    }
+}
+@media (max-width:900px){
+    div.container{
+        height: 100%;
+        border: 2px solid black;
+        margin: 0% auto;
+        width: 90%;
+        
+    }
+    div.content form{
+        display: inline-block;
+        width: 100%;
+        justify-content:flex-end;
+      
+        margin: 0 auto;
+    }
+    div.content{
+        padding: 4%;
+    }
+    form{
+        width: 90%;
+        
+        width: 60%;
+        background-color: white;
+        text-align: center;
+        margin: 0 auto;
+        padding: 4% 0%;
+        border: 1px solid black;
+        margin-bottom: 2%;
+        padding-bottom: 3%;
+        
+        padding-right: 10%;
+    }
+}
